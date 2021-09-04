@@ -1,0 +1,135 @@
+body {
+    text-align: center;
+    background: linear-gradient(lightgrey 0%, lightblue 100%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 300;
+    height: 200;
+    border-radius: 50%;
+
+}
+
+#myname {
+    font-family: cambria;
+}
+
+#welcome {
+    padding: 70px;
+    text-align: center:
+}
+
+h1 {
+
+    font-size: 20px;
+}
+p {
+    font-size: 20px;
+    color: black;
+
+}
+
+h2 {
+    font-size: 20px;
+    color: black;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#about {
+    padding: 20px;
+    font-size: 42;
+}
+
+.menu {
+    list-style: none;
+    font-family: cambria;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+}
+
+.menu a {
+
+    color: black !important;
+}
+
+
+.link {
+    color: black;
+    display: inline;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+}
+
+#work a,
+#reviews a {
+    font-size: :20px;
+
+}
+
+.button {
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+hr{
+    height: 2px;
+    background-color: black;
+}
+.jj{
+    margin-top: 50px;
+    font-size: 20px;
+}
+#work{
+    font-size: 500px;
+    height: 400px;
+    align-content: space-around;
+}
+.jj a{
+    margin-top: 20px;
+}
+#picture {
+    width: auto;
+    height: 300px;
+    border-radius: 0%;
+    margin: 20px;
+}
+
+.inspiration {
+    background: #373B44;
+    background: linear-gradient(grey, lightblue);
+    padding-top: 20px;
+}
+
+img {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+img:hover {
+   transform: scale(0.9)
+    
+}
